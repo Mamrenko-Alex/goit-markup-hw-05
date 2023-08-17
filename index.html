@@ -577,6 +577,26 @@
             </li>
           </ul>
         </div>
+
+        <div class="form-wrapper">
+          <p class="subscribe">Subscribe</p>
+          <form class="form callback-form">
+            <label>
+              <input
+                type="email"
+                class="input subscribe-user-email"
+                name="email"
+                placeholder="Email"
+              />
+            </label>
+            <button type="submit" class="subscribe-button">
+              Subscribe
+              <svg class="order-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="modal-button-container is-hidden" data-modal>
@@ -590,6 +610,72 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="form order-form">
+          <fieldset class="client-order">
+            <legend class="feedback-info">
+              Leave your contacts and we will call you back
+            </legend>
+            <label class="modal-label client-name">
+              Name
+              <div class="input-icon-wrapper">
+                <input
+                  type="text"
+                  name="name"
+                  class="input order-data-input"
+                  placeholder=""
+                />
+                <svg class="modal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="modal-label client-phone">
+              Phone
+              <div class="input-icon-wrapper">
+                <input
+                  type="phone"
+                  name="phone"
+                  class="input order-data-input"
+                />
+                <svg class="modal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="modal-label client-email">
+              Email
+              <div class="input-icon-wrapper">
+                <input
+                  type="email"
+                  name="email"
+                  class="input order-data-input"
+                />
+                <svg class="modal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="modal-label client-comment">
+              Comment
+              <textarea
+                name="comment"
+                class="input-comment"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </fieldset>
+
+          <label class="privacy-policy">
+            <input class="form-checkbox-item visually-hidden" type="checkbox" />
+            <svg class="icon-checkbox" width="16" height="16">
+              <use href="./images/icons.svg#icon-check"></use>
+            </svg>
+            I accept the terms and conditions of the
+            <a href="" class="link link-form">Privacy Policy</a>
+          </label>
+
+          <button type="submit" class="cta-button order-button">Send</button>
+        </form>
       </div>
     </div>
 
