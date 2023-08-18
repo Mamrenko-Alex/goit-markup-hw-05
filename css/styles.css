@@ -689,10 +689,13 @@ button {
   align-items: baseline;
 }
 
-.footer-content-container,
-.footer-social-container {
+.footer-content-container {
   display: block;
   margin-right: 120px;
+}
+
+.footer-social-container {
+  margin-right: 80px;
 }
 
 .footer-slogan {
